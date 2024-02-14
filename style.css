@@ -21,7 +21,27 @@ a
 .banner{
     position: absolute;
     top:170px;
-    text-align: center;
+}
+.title-heading .para-desc
+{
+  font-size: 17px;
+  letter-spacing: .5px;
+}
+.text-white-50
+{
+  color: hsla(0,0%,100%,.5);
+}
+.para-desc
+{
+  max-width: 800px;
+}
+.row
+{
+  position: relative;
+}
+.display-5
+{
+  font-size: 48px !important;
 }
 .about-image-position{
     left: 50%;
@@ -92,7 +112,7 @@ a
 
 .para-desc
 {
-  max-width: 600px;
+  max-width: 800px;
 }
 .text-light
 {
@@ -362,15 +382,6 @@ a
 }
 
 /* footer */
-/* .bg-footer
-{
-  background-color: #202942 !important;
-}
-footer
-{
-  color: #adb5bd;
-  position: relative;
-} */
 .row {
   display: flex;
   flex-wrap: wrap;
@@ -390,6 +401,9 @@ ul {
 .footer-col {
   width: 25%;
   padding: 0 15px;
+}
+.footer-col span{
+  color: #ffffffb9;
 }
 
 .footer-col h4 {
